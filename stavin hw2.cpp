@@ -23,15 +23,23 @@ void openFile(string lyric[], int array){
 		lyric[array];
 		for(int i=0; i<array;i++){
 			file>>lyric[i];
+<<<<<<< HEAD
 			cout<<lyric[i] <<" ";
 			if(i%21==0 && i!=0)cout<<endl;
 			}cout<<endl;
+=======
+			}
+>>>>>>> 1db34798d61f29421fb5d86f71d925d738ed2434
 			}
 		}
 
 //choose qualified words
 void chCount(string lyric[], int array){
+<<<<<<< HEAD
 	for(int i=0; i<array-1; i++){
+=======
+	for(int i=0; i<array; i++){
+>>>>>>> 1db34798d61f29421fb5d86f71d925d738ed2434
 			int minIndex = i;
         	string minValue = lyric[i];
        			for(int index = i + 1; index < array; index++) {
