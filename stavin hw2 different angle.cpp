@@ -45,11 +45,11 @@ void chCount(string lyric[], int array){
         	if (lyric[i].length()>=5){
     		cout << lyric[i] << " ";
     		for(int next= i+1; next<array; next++){
-        		if(lyric[i]==lyric[next]){
-        			cout << "*";
+        		if(lyric[i]!=lyric[next]){
+        			cout << lyric[next];
+				}
 			}
-		}
 		cout << endl;
 		}
-		}
 	}
+}
